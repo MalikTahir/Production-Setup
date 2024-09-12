@@ -1,0 +1,1 @@
+console.log("Adding husky to production setup")
