@@ -1,0 +1,11 @@
+{
+  "name": "03-git-hub",
+  "version": "1.0.0",
+  "description": "Git Hub integration with nodejs Production setup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tahir",
+  "license": "ISC"
+}
