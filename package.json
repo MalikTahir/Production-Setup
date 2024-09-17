@@ -1,0 +1,22 @@
+{
+  "name": "06-folder-structure",
+  "version": "1.0.0",
+  "description": "creating folder structure for node js project",
+  "main": "server.js",
+  "scripts": {
+    "dist": "npx tsc",
+    "dev": "nodemon src/server.ts ",
+    "start": "node dist/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky"
+  },
+  "author": "Tahir",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^9.1.6",
+    "lint-staged": "^15.2.10",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  }
+}
