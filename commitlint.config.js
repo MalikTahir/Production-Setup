@@ -14,7 +14,7 @@ module.exports = {
           'chore',   // Miscellaneous tasks like build process changes
         ]
       ],
-      'subject-case': [2, 'never', ['start-case', 'pascal-case']],  // Ensure subject is in lower case
+      'subject-case': [2, 'always', ['start-case', 'pascal-case']],  // Ensure subject is in lower case
       'subject-max-length': [2, 'always', 72],  // Limit subject length to 72 characters
     },
   };
